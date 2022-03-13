@@ -25,6 +25,6 @@ public class Persist
               multiplyDigits *= (n % 10);
           }
 
-        return Persistence(multiplyOfDigits) + 1;
+        return Persistence(multiplyDigits) + 1;
 	}
 }
